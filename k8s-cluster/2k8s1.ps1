@@ -1,7 +1,7 @@
 #!ps
 
 # 引用环境变量
-& ".\0k8s-env.ps1"
+& "$PSScriptRoot\0k8s-env.ps1"
 
 # 虚拟机k8s1
 $vm_name = "k8s1"

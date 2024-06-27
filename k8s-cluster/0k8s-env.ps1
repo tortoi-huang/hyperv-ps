@@ -7,6 +7,6 @@ $global:cluster_dir = "k8s"
 New-Item -Path "$vm_path\" -Name $cluster_dir -ItemType "directory" -ErrorAction Ignore
 $global:cluster_path = "$vm_path\$cluster_dir"
 $global:disk_dir = "Virtual Hard Disks"
-$global:vm_mem = 4GB
+$global:vm_mem = 2GB
 $global:vm_gen = 1
 $global:vm_switch = "fix-switch"
