@@ -1,2 +1,2 @@
 # hyperv-ps
-测试和验证hyper-v相关操作
+此项目代码以及迁移到 https://github.com/tortoi-huang/k8s-practice.git 不再维护此项目
